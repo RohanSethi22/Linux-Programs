@@ -1,0 +1,6 @@
+com 1
+com 2
+diffcom
+anotherdiff
+anotherdiff 2
+diff4

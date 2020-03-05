@@ -1,0 +1,16 @@
+declare -i var=$1
+arr=''
+
+while [[ $var -ge 0 ]]
+do
+	declare -i temp=$1-$var
+	arr=$arr$temp' '
+	let var=$var-1
+done
+var=$1
+while [[ $var -le 0 ]]
+do
+	arr=$arr$var' '
+	let var=$var+1
+done
+echo $arr
